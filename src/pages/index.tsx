@@ -47,7 +47,7 @@ export const getStaticProps: GetStaticProps  = async () => {
   }
 }
 
-const Home: React.FC = ({ latestPosts }) => {
+const Home = ({ latestPosts }) => {
   const classes = useStyles()
 
   const items: Item[] = [
